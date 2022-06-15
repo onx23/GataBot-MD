@@ -1,0 +1,11 @@
+323
+
+I spent lots of hours on it when I call PHP script to init and commit to git. And I found the work flow should be as:
+
+git init
+heroku git:remote -a asdawsdasd
+git config user.name "uwu"
+git config user.email "zwwzwin@gmail.com"
+git add *
+git commit -m "some init msg"
+git push heroku master
